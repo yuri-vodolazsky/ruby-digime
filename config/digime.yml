@@ -1,0 +1,28 @@
+default: &default
+  sdk:
+    application_id: ''
+    base_url: 'https://api.digi.me/v1.6/'
+    onboard_url: 'https://api.digi.me/apps/saas/'
+
+  services:
+    spotify: 16
+    nhs: 280
+
+  contracts:
+    spotify:
+      id: 
+      key_file: digi-me-example.key
+      redirect_uri: 'http://localhost:8081/return'
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+staging:
+  <<: *default
+
+production:
+  <<: *default
+
