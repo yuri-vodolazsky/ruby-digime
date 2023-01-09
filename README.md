@@ -1,6 +1,6 @@
 # ruby-digime
 
-_Created during work on awesome company [DoIT](https://doit.life) which kindly allowed to share this code_
+_Created during work for awesome company [DoIT](https://doit.life) which kindly allowed to share this code_
 
 Ruby SDK for digi.me API
 
